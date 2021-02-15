@@ -1,16 +1,15 @@
 :root{
     --cinza: rgb(64, 64, 64);
+    --azulzinho: rgba(0, 255, 255, 0.719);
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 header{
     background-color: var(--cinza);
@@ -24,6 +23,19 @@ header .container{
     justify-content: space-evenly;
 }
 
+header nav a{
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+    
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+header nav a:hover{
+    color: white;
+    font-weight: 700;
+}
+
 .logo{
     display: flex;
     align-items: center;
@@ -35,18 +47,63 @@ header .container{
     margin-right: 10px;
 }
 
-.container{
-    margin-left: 50px;
-    margin-right: 50px;
+
+/*Corpo principal da página*/
+main .container{
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%) ,url('../img/pexels-donald-tong-66134.jpg');
+    background-size: cover;
+
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-header nav a{
-    text-decoration: none;
-    color: rgb(204, 204, 204);
-    margin-right: 10px;
-}
-
-header nav a:hover{
+.about{
+    font-size: 2.25em;
     color: white;
-    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: justify;
+
+    margin: 0 30px;
+    max-width: 70%;
+}
+
+.about h2{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.listas{
+    margin-top: 50px;
+}
+
+
+
+.listas a{
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 5px 5px;
+    border-radius: 6px;
+
+    color: var(--cinza);
+    background-color: var(--azulzinho);
+}
+
+
+
+
+
+
+
+
+
+.container{
+    margin: 0 auto;
 }
