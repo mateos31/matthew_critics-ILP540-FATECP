@@ -1,0 +1,45 @@
+section{
+    height: 800px;
+}
+
+.filme1 {
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/fight-club-1999.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.filme2 {
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/inception_background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.filme3 {
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/cropped-1920-1080-590862.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.filme4 {
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/inception_background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.filme5 {
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../img/inception_background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+section .container{
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    color: white;
+    font-size: 2.15rem;
+}

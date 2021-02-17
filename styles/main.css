@@ -1,6 +1,7 @@
 :root{
     --cinza: rgb(64, 64, 64);
     --azulzinho: rgba(0, 255, 255, 0.719);
+    --preto: #141414;
 }
 
 *{
@@ -85,7 +86,6 @@ main .container{
 }
 
 
-
 .listas a{
     text-decoration: none;
     margin-left: 10px;
@@ -94,6 +94,23 @@ main .container{
 
     color: var(--cinza);
     background-color: var(--azulzinho);
+}
+
+.listas a:hover{
+    background-color: rgba(40, 185, 185, 0.719);
+    color: white;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--preto);
+    color: white;
+    font-weight: bold;
+
+    height: 80px;
 }
 
 
