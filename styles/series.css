@@ -1,0 +1,102 @@
+section{
+    height: 800px;
+}
+
+/*
+Se quiser escurecer adicione o seguinte valor na propriedade 'background'
+linear-gradient(rgba(14, 14, 14, .25),rgba(14,14,14,.25)100%),
+*/
+
+.filme1 {
+    background: url('../img/img-breaking_bad.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.filme2 {
+    background: url('../img/img-mr_robot.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.filme3 {
+    background: url('../img/img-black_mirror.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.filme4 {
+    background: url('../img/img-star_wars_v.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.filme5 {
+    background: url('../img/img-pulp_fiction.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+section .container{
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    color: white;
+    font-size: 2.15rem;
+
+    backdrop-filter: blur(6px);
+}
+
+.info{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info img{
+    height: 350px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.info .descricao{
+    max-height: 400px;
+    max-width: 45%;
+    font-size: 1.25rem;
+}
+
+.descricao h2{
+    text-align: left;
+}
+
+.descricao p{
+    text-align: justify;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    border:  none;
+    border-radius: 4px;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}

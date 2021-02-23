@@ -51,7 +51,7 @@ header nav a:hover{
 
 /*Corpo principal da página*/
 main .container{
-    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%) ,url('../img/pexels-donald-tong-66134.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%) ,url('../img/background-theme.jpg');
     background-size: cover;
 
     height: 800px;
@@ -63,7 +63,7 @@ main .container{
 }
 
 .about{
-    font-size: 2.25em;
+    font-size: 32px;
     color: white;
 
     display: flex;
