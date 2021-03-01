@@ -24,6 +24,11 @@ header .container{
     justify-content: space-evenly;
 }
 
+.to-home{
+    text-decoration: none;
+    color: #FFF;
+}
+
 header nav a{
     text-decoration: none;
     color: rgb(204, 204, 204);
