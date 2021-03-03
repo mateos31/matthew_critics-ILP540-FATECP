@@ -1,6 +1,5 @@
 section{
-    height: 800px;
-    
+    height: 800px;   
 }
 
 /*
@@ -8,31 +7,31 @@ Se quiser escurecer adicione o seguinte valor na propriedade 'background'
 linear-gradient(rgba(14, 14, 14, .25),rgba(14,14,14,.25)100%),
 */
 
-.filme1 {
+.item1 {
     background: url('../img/img-fight_club.png');
     background-size: cover;
     background-position: center;
 }
 
-.filme2 {
+.item2 {
     background: url('../img/img-inception.jpg');
     background-size: cover;
     background-position: center;
 }
 
-.filme3 {
+.item3 {
     background: url('../img/img-cavaleiro_das_trevas.jpg');
     background-size: cover;
     background-position: center;
 }
 
-.filme4 {
+.item4 {
     background: url('../img/img-star_wars_v.jpg');
     background-size: cover;
     background-position: center;
 }
 
-.filme5 {
+.item5 {
     background: url('../img/img-pulp_fiction.jpg');
     background-size: cover;
     background-position: center;
@@ -100,4 +99,8 @@ section .container{
 
 .botao i{
     margin-right: 8px;
+}
+
+.botoes a{
+    text-decoration: none;
 }
