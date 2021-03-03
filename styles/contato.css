@@ -16,6 +16,7 @@ input{
     height: 30px;
     border: none;
     border-radius: 4px;
+    margin-bottom: 20px;
 }
 
 textarea{

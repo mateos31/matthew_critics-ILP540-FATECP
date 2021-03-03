@@ -1,0 +1,66 @@
+@media screen and (max-width: 710px){
+    .about{
+        font-size: 28px;
+        max-width: 90%;
+    }
+
+    .info .descricao{
+        max-width: 90%;
+    }
+
+    .botoes{
+        display: flex;
+    }
+
+    .botao{
+        padding: 10px 15px;
+    }
+
+    form{
+        width: 90%;
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .about{
+        font-size: 26px;
+    }
+    
+    .info{
+        flex-direction: column;
+    }
+
+    .info img{
+        margin: 10px 0px;
+    }
+
+    .info .descricao{        
+        max-width: 90%;
+        font-size: 20px;
+    }
+
+    label{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .logo img{
+        max-width: 50px;
+    }
+
+    .logo h2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .about{
+        font-size: 20px;
+    }
+
+    .info img{
+        height: 250px;
+    }
+}
