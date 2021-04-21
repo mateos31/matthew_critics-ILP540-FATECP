@@ -36,7 +36,8 @@
     }
 
     .about iframe{
-        height: 670px;
+        height: 500px;
+        width: 70%;
     }
     
     .info{
