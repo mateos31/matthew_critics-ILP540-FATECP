@@ -2,37 +2,33 @@ section{
     height: 800px;
 }
 
-/*
-Se quiser escurecer adicione o seguinte valor na propriedade 'background'
-linear-gradient(rgba(14, 14, 14, .25),rgba(14,14,14,.25)100%),
-*/
 
 .item1 {
-    background: url('../img/img-breaking_bad.jpg');
+    background: url('https://wallpaperaccess.com/full/781824.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .item2 {
-    background: url('../img/img-mr_robot.jpg');
+    background: url('https://images5.alphacoders.com/924/924942.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .item3 {
-    background: url('../img/img-black_mirror.jpg');
+    background: url('https://t2.tudocdn.net/209990?w=1200');
     background-size: cover;
     background-position: center;
 }
 
 .item4 {
-    background: url('../img/img-mandalorian.jpg');
+    background: url('https://images6.alphacoders.com/103/thumb-1920-1038319.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .item5 {
-    background: url('../img/img-narcos.jpg');
+    background: url('https://ogimg.infoglobo.com.br/in/20631065-98b-f29/FT1500A/690/xNARCOS_201_01595RC.jpg.pagespeed.ic.nx5cAEkZmz.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -46,27 +42,27 @@ section .container{
     justify-content: space-evenly;
 
     color: white;
-    font-size: 2.15rem;
 
     backdrop-filter: blur(6px);
 }
 
 .info{
-    width: 90%;
+    width: 93%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .info img{
-    height: 350px;
+    height: 250px;
     border-radius: 10px;
-    margin-right: 50px;
+    margin-bottom: 15px;
 }
 
 .info .descricao{
     max-height: 400px;
-    max-width: 45%;
+    width: 100%;
     font-size: 1.25rem;
 }
 

@@ -1,5 +1,9 @@
+main .container{
+    height: 880px;
+}
+
 form{
-    width: 600px;
+    width: 93%;
     background-color: rgb(64, 64, 64);
 
     padding: 20px;

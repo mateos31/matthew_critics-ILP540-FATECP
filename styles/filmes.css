@@ -2,37 +2,32 @@ section{
     height: 800px;   
 }
 
-/*
-Se quiser escurecer adicione o seguinte valor na propriedade 'background'
-linear-gradient(rgba(14, 14, 14, .25),rgba(14,14,14,.25)100%),
-*/
-
 .item1 {
-    background: url('../img/img-fight_club.png');
+    background: url('https://1.bp.blogspot.com/-hZIGYpBdpZw/VzotNflNI8I/AAAAAAAAA_U/JgKe6OZZQQMqPHYXtRbGCaGZcQq7fRJDACKgB/s1600/img-clube-da-luta-15-anos-05.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .item2 {
-    background: url('../img/img-inception.jpg');
+    background: url('https://entreterse.s3.amazonaws.com/wp-content/uploads/2020/08/A-ORIGEM-2010.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .item3 {
-    background: url('../img/img-cavaleiro_das_trevas.jpg');
+    background: url('https://images5.alphacoders.com/590/590862.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .item4 {
-    background: url('../img/img-star_wars_v.jpg');
+    background: url('https://wallpapermemory.com/uploads/675/star-wars-episode-5-v-the-empire-strikes-back-wallpaper-hd-1920x1080-123472.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .item5 {
-    background: url('../img/img-pulp_fiction.jpg');
+    background: url('https://wallpaperaccess.com/full/984582.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -46,27 +41,27 @@ section .container{
     justify-content: space-evenly;
 
     color: white;
-    font-size: 2.15rem;
 
     backdrop-filter: blur(6px);
 }
 
 .info{
-    width: 90%;
+    width: 93%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .info img{
-    height: 350px;
+    height: 250px;
     border-radius: 10px;
-    margin-right: 50px;
+    margin-bottom: 15px;
 }
 
 .info .descricao{
     max-height: 400px;
-    max-width: 45%;
+    width: 100%;
     font-size: 1.25rem;
 }
 

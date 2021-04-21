@@ -1,66 +1,49 @@
-@media screen and (max-width: 710px){
-    .about{
-        font-size: 28px;
-        max-width: 90%;
+@media screen and (min-width: 500px){
+    .logo h2{
+        display: inline-block;
     }
 
-    .info .descricao{
-        max-width: 90%;
-    }
-
-    .botoes{
-        display: flex;
-    }
-
-    .botao{
-        padding: 10px 15px;
-    }
-
-    form{
-        width: 90%;
-        max-width: 90%;
+    .about iframe{
+        height: 300px;
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (min-width: 800px){
     .about{
-        font-size: 26px;
+        font-size: 1.55rem
+    }
+
+    .about iframe{
+        height: 500px;
+    }
+
+
+    .info{
+        flex-direction: row;
+    }
+
+    .info img{
+        margin-right: 20px;
+        margin-bottom: 0;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .about {
+        width: 70%;
+        font-size: 1.75rem
+    }
+
+    .about iframe{
+        height: 670px;
     }
     
     .info{
-        flex-direction: column;
+        width: 70%;
     }
 
-    .info img{
-        margin: 10px 0px;
-    }
-
-    .info .descricao{        
-        max-width: 90%;
-        font-size: 20px;
-    }
-
-    label{
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .logo img{
-        max-width: 50px;
-    }
-
-    .logo h2{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 400px){
-    .about{
-        font-size: 20px;
-    }
-
-    .info img{
-        height: 250px;
+    form{
+        width: 60%;
     }
 }
